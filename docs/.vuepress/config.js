@@ -1,7 +1,7 @@
 module.exports = {
     title: '每日一题',
     description: '积跬步以至千里,积小流以成江海出处',
-    base: '/learn-javascript/',
+    base: '/myblogs/',
     locales: {
         '/': {
           lang: 'zh-CN'
@@ -30,12 +30,12 @@ module.exports = {
                 ]
             },
             {
-              title: "基础学习",
-              path: '/handbook/myNew',
+              title: "JavaScript学习",
+              path: '/JavaScript/myNew',
               collapsable: false, // 不折叠
               children: [
-                { title: "手写一个JS中的New方法", path: "/handbook/myNew" },
-                { title: "手写一个深拷贝方法", path: "/handbook/deepClone" }
+                { title: "手写一个JS中的New方法", path: "/JavaScript/myNew" },
+                { title: "手写一个深拷贝方法", path: "/JavaScript/deepClone" }
               ],
             }
           ]

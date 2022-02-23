@@ -1,3 +1,5 @@
+#!/usr/bin/env  node // 用node 执行 
+
 # 确保脚本抛出遇到的错误
 set -e
 
@@ -13,6 +15,5 @@ git commit -m 'deploy'
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
 git push -f git@github.com:MonsterChina/myblog.github.io.git master:gh-pages
-# git push -f git@gitee.com:mqyqingfeng/learn-typescript.git master:gh-pages
 
 cd -

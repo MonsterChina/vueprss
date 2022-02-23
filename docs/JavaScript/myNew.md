@@ -17,7 +17,7 @@ Person.prototype.getFullName = function () {
   return `${this.firtName} ${this.lastName}`;
 };
 
-const tb = new Person('Chen', 'Tianbao');
+const tb = new Person('Zhang', 'San');
 console.log(tb);
 
 ```
@@ -106,10 +106,10 @@ function _new(obj, ...rest){
 测试一下.
 
 ```js
-const tb = new Person('Chen', 'Tianbao');
+const tb = new Person('zhang', 'San');
 console.log(tb);
 
-const tb2 = _new(Person, 'Chen', 'Tianbao');
+const tb2 = _new(Person, 'zhang', 'San');
 console.log(tb2)
 
 ```
